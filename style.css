@@ -1,0 +1,153 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+    font-family: sans-serif;
+  }
+
+  h1{
+      font-size: 30px;
+      font-weight: bold;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  h3 {
+      padding-bottom: 20px;
+  }
+
+  hr {
+      width: 100%;
+      color: rgb(209, 209, 209);
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  nav {
+      width: 15%;
+      float: left;
+      /* border: 2px black solid; */
+      height: 1000px;
+  }
+
+  .search{
+    display: inline;
+    font-size: 25px;
+    color: gray;
+    margin-left: 20px;
+    font-weight: lighter;
+  }
+
+  ul {
+    margin-left: -20px;
+  }
+
+  li {
+      list-style-type: none;
+      padding-bottom: 15px;
+      font-size: 25px;
+      font-weight: lighter;
+      
+  }
+
+  a {
+      text-decoration: none;
+      color: gray;
+      
+  }
+
+  a:hover{
+      color: rgb(89, 206, 89);
+  }
+
+  .login {
+      display: block;
+      font-size: 20px;
+      margin-left: 20px;
+      padding-bottom: 40px;
+      padding-top: 10px;
+  }
+  .logo{
+      width: 180px;
+      padding: 20px 0 0 15px;
+  }
+
+  section {
+    width: 55%;
+    float: left;
+    height: 700px;
+
+  }
+
+  .extra {
+      width: 150px;
+      padding-top: 10px;
+  }
+
+  .main-image {
+      width: 750px;
+  }
+
+  p {
+      font-size: 20px;
+      color: gray;
+  }
+
+  aside {
+    width: 30%;
+    float: left;
+    height: 700px;
+    font-size: 12px;
+  }
+
+  span {
+      color: gray;
+  }
+
+  footer {
+    float: left;
+    width: 28.3%;
+    height: 250px;
+    padding-top: 80px;
+  }
+  .summary {
+      margin-right: 60px;
+  }
+
+  .woman {
+      width: 400px;
+  }
+  
+  .time{
+      margin-bottom: 80px;
+      width: 200px;
+  }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
